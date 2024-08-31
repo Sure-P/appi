@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="./emo/reg.php" method="post" name="wmpForm">
+      <label for="empFirstName">FIRSTNAME</label>
+      <input
+        type="text"
+        name="empFirstName"
+        maxlength="13"
+        minlength="4"
+        placeholder="ENTER FIRSTNAME"
+        !--
+        TO
+        READ
+        ONLY
+        use
+        --
+        readonly
+        !--
+        to
+        disable
+        use
+        --
+        disabled
+      />
+      <br />
+      <br />
+
+      <label for="empAge">AGE</label>
+      <input type="number" max="85" min="18" name="empAge" />
+      <br />
+      <br />
+      <label for="EmpDOB">DOB</label>
+      <input type="date" name="EmpDOB" id="" />
+      <br />
+      <br />
+      <label for="Email">EMAIL</label>
+      <input type="email" name="Email" id="" required />
+      <br />
+      <br />
+      <label for="Phone">Phone Number</label>
+      <!-- use required so its a must to fill them -->
+      <input
+        type="tel"
+        name="Phone"
+        id=""
+        maxlength="11"
+        minlength="11"
+        required
+      />
+      <br />
+      <br />
+      <label for="dateTime">Date and Time Joined</label>
+      <input type="datetime-local" name="dateTime" id="" />
+      <br />
+      <br />
+      <label for="Time">Time Checkout</label>
+      <input type="time" name="Time" id="" tabindex="-1"/>
+      <br />
+      <br />
+      <label for="MONTH">MONTH OF APPRAISER</label>
+      <input type="month" name="MONTH" id="" />
+      <br />
+      <br />
+      <label for="Height">HEIGHT</label>
+      <span>1.0</span
+      ><input type="range" min="10.0" max="200" step="2" name="Height" id="" />
+      <span>200.0</span>
+      <br />
+      <br />
+      <label for="GENDER">GENDER</label>
+      <input type="radio" name="GENDER" id="" value="male" /> Male
+      <input type="radio" name="GENDER" id="" value="Female" checked />Female
+      <br />
+      <br />
+      <button style="color: red; font-size: large;font-style: italic;">Submit</button>
+    </form>
+  </body>
+</html>

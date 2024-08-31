@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>BioData</legend>
+        <label> FIRSTNAME: <input type="text" name="FIRSTNAME" /></label>
+        <label>Lastname: <input type="text" name="Lastname" /></label>
+        <label>Date Of Birth <input type="date" name="DOB"></label>
+        <label>State Of Origin
+            <select name="state" id="" multiple>
+                <option value="#">Select Your State</option>
+                <option value="lagos">Lagos</option>
+                <option value="Abuja">Abuja</option>
+                <option value="Enugu">Enugu</option>
+                <option value="Kano">Kano</option>
+                <option value="Edo">Edo</option>
+                <option value="Anambra">Anambra</option>
+            </select>
+        </label>
+      </fieldset>
+      <fieldset> <legend>Favorite Food</legend>
+        <label>Food
+            <select name="food" id="" multiple>
+                <optgroup label="Swallows">Swallows</option>
+                <option value="fufu">Fufu</option>
+                <option value="Eba">Eba</option>
+                <option value="Amala">Amala</option></optgroup>
+                <optgroup label="Grain">Grain</option>
+                <option value="Bean">Beans</option>
+                <option value="Rice">Rice</option></optgroup>
+            </select>
+        </label>
+    </fieldset>
+
+      <fieldset> <legend>AGE</legend>
+        <label> AGE: <input type="number" name="Age" /></label></fieldset>
+
+      <fieldset>GENDER
+      <label><input type="radio" name="gender" value="male">Male </label>
+      <label><input type="radio" name="gender" value="female">Female</label></fieldset>
+
+      <fieldset>EMAIL
+        <label><input type="email" name="EMAIL"></label>
+      </fieldset>
+      <fieldset>
+        <legend>HOBBIES</legend>
+        <label><input type="checkbox" name="hobbies" value="soccer" checked disabled>Soccer</label>
+        <label><input type="checkbox" name="hobbies" value="cricket">Cricket</label>
+        <label><input type="checkbox" name="hobbies" value="swimming">Swimming</label>
+        <label><input type="checkbox" name="hobbies" value="basketball">Basketball</label>
+      </fieldset>
+      <fieldset>
+        <legend>Contact Address</legend>
+        <label> <input type="tel" name="Phone number" maxlength="11" minlength="11"></label>
+        Address: <textarea name="address" id="" cols="10" rows="2"></textarea>
+      </fieldset>
+     
+      <fieldset>
+        <legend>Other Info</legend>
+        <span>Upload Your CV</span>
+        <input type="file" name="cv" id="" accept="file/*">
+        <span>Choose Your Color</span>
+        <input type="color" name="color" id="">
+        <span>Search For Your Content</span>
+        <input type="search" name="search" id="">
+        <input type="image" src="../htmlimages/images/Demon.jpg" height="200">
+        <span>Languages</span>
+      <input list ="languages" name="lang" id=""/>  
+      <datalist id="languages">
+        <option value="Python">
+          <option value="C-sharp">
+            <option value="SQL">
+              <option value="Ruby">
+                <option value="Java">
+                  <option value="JavaScript">
+                    <option value="HTML5">
+                      <option value="Go-Lang">
+                        <option value="CSS3">
+                          <option value="C++">
+                            <option value="PHP">
+                            </datalist>
+                            </fieldset>
+                            <fieldset>
+                              <input type="button" value="Submit">
+                              <input type="reset" value="Clear">
+                            </fieldset>                  
+
+    </form>
+  </body>
+</html>
